@@ -1,1 +1,6 @@
-
+name: "Mindustry-MEME-units"
+displayName: "MEMES"
+author: "[red]Duvent"
+description: "a small mod"
+version: "0.1"
+minGameVersion: 124
