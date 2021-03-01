@@ -1,1 +1,49 @@
+type: flying
+health: 600
+speed: 5
+accel: 0.010
+drag: 0.030
+flying: true
+range: 120
+hitSize: 15
+lowAltitude: true
+armor: 10
 
+engineOffset: 12
+engineSize: 3
+
+weapons: [{
+name: zamaila-missiles
+reload: 20
+x: 7
+rotate: true
+velocityRnd: 0.4
+shootSound: missile
+bullet: {
+type: MissileBulletType
+speed: 6
+damage: 30
+width: 8
+height: 8
+shrinkY: 0
+drag: -0.003
+homingRange: 60
+keepVelocity: false
+splashDamageRadius: 20
+splashDamage: 10
+lifetime: 50
+trailColor: d06b53
+backColor: d06b53
+frontColor: ffa665
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+}
+}]
+research: {
+parent: horizon
+requirements: [
+graphite/8500
+silicon/6500
+metaglass/5500
+]
+}
