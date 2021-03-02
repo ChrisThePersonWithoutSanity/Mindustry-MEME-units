@@ -1,0 +1,101 @@
+health: 1250
+speed: 3
+accel: 0.10
+drag: 0.030
+flying: true
+range: 150
+hitSize: 45
+lowAltitude: true
+armor: 10
+
+engineOffset: 12
+engineSize: 5
+
+commandLimit: 10
+
+weapons: [{
+name: zamaila-missiles
+reload: 10
+x: 7
+rotate: true
+shake: 2
+shots: 5
+inaccuracy: 6
+velocityRnd: 0.7
+shootSound: missile
+
+bullet: {
+type: MissileBulletType
+speed: 10
+damage: 160
+width: 10
+height: 10
+shrinkY: 10
+drag: -0.003
+homingRange: 65
+keepVelocity: false
+splashDamageRadius: 30
+splashDamage: 16
+lifetime: 50
+trailColor: d06b53
+backColor: d06b53
+frontColor: ffa665
+hitEffect: blastExplosion
+despawnEffect: blastExplosion
+weaveScale: 6
+weaveMag: 1
+}
+}
+{
+name: zoire-cannon
+x: 7
+y: 5
+reload: 10
+shake: 2
+inaccuracy: 0
+rotate: true
+shootSound: pew
+ejectEffect: casing2
+alternate: true
+bullet: {
+type: BasicBulletType
+width: 9
+height: 13
+speed: 5
+damage: 160
+lifetime: 100
+backColor: d06b53
+frontColor: ffa665
+incendChance: 0.9
+incendAmount: 8
+incendSpread: 10
+status: burning
+statusDuration: 100
+fragBullets: 5
+fragCone: 150
+fragBullet: {
+type: BombBulletType
+width: 5
+height: 7
+speed: 20
+damage: 5
+lifetime: 20
+backColor: d06b53
+frontColor: ffa665
+pierce: true
+pierceCap: 2
+splashDamage: 10
+splashDamageRadius: 50
+}
+}
+}]
+research: {
+parent: zamaila
+requirements: [
+titanium/10000
+silicon/10000
+metaglass/8000
+thorium/8000
+plastanium/6000
+]
+}
