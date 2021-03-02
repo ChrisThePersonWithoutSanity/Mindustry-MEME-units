@@ -1,35 +1,35 @@
 health: 1250
-speed: 3
+speed: 1.5
 accel: 0.10
 drag: 0.030
 flying: true
-range: 150
-hitSize: 45
+range: 100
+hitSize: 35
 lowAltitude: true
-armor: 10
+armor: 50
 
 engineOffset: 12
-engineSize: 5
+engineSize: 10
 
-commandLimit: 10
+commandLimit: 5
 
 weapons: [{
 name: zamaila-missiles
-reload: 10
+reload: 15
 x: 7
 rotate: true
-shake: 2
-shots: 5
-inaccuracy: 6
+shake: 1
+shots: 3
+inaccuracy: 5
 velocityRnd: 0.7
 shootSound: missile
 
 bullet: {
 type: MissileBulletType
-speed: 10
-damage: 160
-width: 10
-height: 10
+speed: 8
+damage: 100
+width: 8
+height: 8
 shrinkY: 10
 drag: -0.003
 homingRange: 65
@@ -50,8 +50,8 @@ weaveMag: 1
 name: zouiree-cannon
 x: 7
 y: 5
-reload: 10
-shake: 2
+reload: 20
+shake: 1
 inaccuracy: 0
 rotate: true
 shootSound: pew
@@ -59,10 +59,10 @@ ejectEffect: casing2
 alternate: true
 bullet: {
 type: BasicBulletType
-width: 9
-height: 13
+width: 15
+height: 15
 speed: 5
-damage: 160
+damage: 125
 lifetime: 100
 backColor: d06b53
 frontColor: ffa665
