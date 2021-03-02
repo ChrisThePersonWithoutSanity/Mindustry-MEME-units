@@ -1,4 +1,5 @@
-health: 1250
+localizedName: "Zouiree"
+health: 1450
 speed: 1.5
 accel: 0.10
 drag: 0.030
@@ -27,7 +28,7 @@ shootSound: missile
 bullet: {
 type: MissileBulletType
 speed: 8
-damage: 100
+damage: 50
 width: 8
 height: 8
 shrinkY: 10
@@ -62,7 +63,7 @@ type: BasicBulletType
 width: 15
 height: 15
 speed: 5
-damage: 125
+damage: 100
 lifetime: 100
 backColor: d06b53
 frontColor: ffa665
