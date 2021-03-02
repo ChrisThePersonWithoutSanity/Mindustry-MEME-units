@@ -22,7 +22,7 @@ shootSound: missile
 bullet: {
 type: MissileBulletType
 speed: 6
-damage: 30
+damage: 100
 width: 8
 height: 8
 shrinkY: 0
